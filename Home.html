@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Poppins:wght@400;800&display=swap"
+        rel="stylesheet">
+    <!-- Emoji Collection -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+
+    <title>PRESTIGE WEDDING CARS | Home</title>
+    <link rel="icon" type="image/x-icon" href="./Images/Favicon.png">
+    <style>
+        /* basic styles implementation */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Navigation Bar */
+        nav {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        nav>.nav-elements {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+            align-items: center;
+        }
+
+        nav>.logo {
+            display: flex;
+            align-items: center;
+        }
+
+        nav>.sign {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logIn-button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .signUp-button {
+            background-color: #0d8ef7;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background-color: #ffffff;
+            height: 75vh;
+            margin: 40px 100px;
+            border-radius: 22px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+        .h-left {
+            padding: 20px;
+        }
+
+        .h-right {
+            background-image: url('./Images/p6.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 25px;
+        }
+
+        .rent-btn {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .hero-highlighted-text {
+            background-color: #f42028;
+        }
+
+        .head-title {
+            font-size: 30px;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .head-title-location {
+            font-size: 15px;
+            opacity: 0.5;
+            text-align: right;
+        }
+
+        a.about:hover{
+            color: #0d8ef7;
+        }
+        #about:link{
+            text-decoration: none;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <div class="logo">
+            <img class="web-logo" src="./Images/Top Logo.png" alt="Top Logo" width="140px" height="110px" />
+            <div>
+                <h2 class="head-title">PRESTIGE WEDDING CARS</h2>
+                <p class="head-title-location">No:47 Horana Rd, Panadura, Sri Lanka</p>
+            </div>
+        </div>
+        <ul class="nav-elements">
+            <li>Home</li>
+            <li>packages</li>
+            <li><a id="about" class="about" href="AboutUs.html">AboutUs</a></li>
+            <li>Gallery and Reviews</li>
+        </ul>
+        <ul class="sign">
+            <li class="logIn-button">LogIn</li>
+            <li class="signUp-button">SignUp</li>
+        </ul>
+    </nav>
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="h-left">
+            <div>WANT A</div>
+            <h1 class="hero-highlighted-text">LUXURY CAR</h1>
+            <div>FOR YOUR</div>
+            <h1>SPECIAL DAY 🤵🏻👰🏻</h1>
+            <p>Elevate your dream day with pure luxury on our opulent wheels.</p>
+            <button class="rent-btn" type="button">Rent Now</button>
+        </div>
+        <div class="h-right"></div>
+    </div>
+</body>
+
+</html>
